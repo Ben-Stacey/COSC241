@@ -1,4 +1,4 @@
-package week03;                                                            
+package Lab3;                                                            
                                                                             
 /**                                                                         
  *  A recursive representation of a tower of blocks.                        

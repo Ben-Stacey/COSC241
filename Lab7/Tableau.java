@@ -1,4 +1,4 @@
-package week07;
+package Lab7;
 
 import java.util.Scanner;
 import java.util.function.Function;

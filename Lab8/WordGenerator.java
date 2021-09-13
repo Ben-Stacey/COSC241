@@ -1,4 +1,4 @@
-package week08;
+package Lab8;
 
 public interface WordGenerator {
 

@@ -1,4 +1,4 @@
-package week11;
+package Lab11;
 
 /**
  *Quick Sort.
@@ -18,6 +18,7 @@ public class QuickSort extends Sorter{
     /**
      * sortNums method.
      */
+    @Override
     public void sortNums(){
         quickSort(0, nums.length -1);
     }

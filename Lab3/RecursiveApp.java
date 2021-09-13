@@ -1,4 +1,4 @@
-package week03;
+package Lab3;
 /** week 3, Recursive work.
  *@author Ben Stacey
  */

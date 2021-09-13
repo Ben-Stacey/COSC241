@@ -1,3 +1,4 @@
+package Lab5;
 public int countHeads(){
     int count = 0;
     for(Boolean x:coins){

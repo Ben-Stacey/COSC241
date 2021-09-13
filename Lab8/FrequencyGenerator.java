@@ -1,8 +1,8 @@
-package week08;
+package Lab8;
 
+import java.io.*;
 import java.util.Random;
 import java.util.Scanner;
-import java.io.*;
 
 /** class that implements WordGenerator.
  * @author Ben Stacey
@@ -61,6 +61,7 @@ public class FrequencyGenerator implements WordGenerator {
      * @param n   
      * @return stre.toString()
      */
+    @Override
     public String nextWord(int n) {
         StringBuilder strb = new StringBuilder();
         

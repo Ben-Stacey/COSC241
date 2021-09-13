@@ -1,4 +1,4 @@
-package week11;
+package Lab11;
 
 /**
  * Insertion sort.
@@ -17,6 +17,7 @@ public class InsertionSort extends Sorter{
     /**
      *Sort the integers.
      */
+    @Override
     public void sortNums(){
         Integer key = 0;
         for(i = 1; i < nums.length; i++){

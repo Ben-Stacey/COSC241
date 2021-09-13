@@ -1,4 +1,4 @@
-package week11;                                                           
+package Lab11;                                                           
                                                                          
 /**                                                                         
  * Selection sort.                                                        
@@ -17,6 +17,7 @@ public class HeapSort extends Sorter{
     /**                                                                   
      *Sort the integers.                                                    
      */                                                              
+    @Override
     public void sortNums(){                                                
         comparisons = 0;
         build(nums);

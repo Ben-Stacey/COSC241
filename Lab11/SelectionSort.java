@@ -1,4 +1,4 @@
-package week11;
+package Lab11;
 
 /**
  * Selection sort.
@@ -17,6 +17,7 @@ public class SelectionSort extends Sorter{
     /**
      *Sort the integers.
      */
+    @Override
     public void sortNums(){
         for(i = 0; i < nums.length; i++){
             for(j = i; j < nums.length; j++){

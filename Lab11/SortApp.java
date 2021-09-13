@@ -1,10 +1,7 @@
-package week11;
+package Lab11;
 
-import java.awt.*;
-import java.awt.event.*;
 import java.util.*;
-import javax.swing.*;
-import static week11.Sorter.State.*;
+import static Lab11.Sorter.State.*;
 
 /**
  * Provides a way of running different sorting algorithms which extend

@@ -1,7 +1,7 @@
-package week08;
+package Lab8;
 
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 /** class that implements WordGenerator.
  * @author Ben Stacey
@@ -82,6 +82,7 @@ public class DigramGenerator implements WordGenerator {
      *  @return the builts string using the string builder
      *  @param n  
      */
+    @Override
     public String nextWord(int n) {
         StringBuilder strb = new StringBuilder();
         char c =  first();

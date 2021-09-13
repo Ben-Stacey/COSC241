@@ -1,4 +1,4 @@
-package week11;
+package Lab11;
 
 /**
  *  A silly sort implementation which is able to be observed through its
@@ -20,6 +20,7 @@ public class SillySort extends Sorter {
     /**
      * Sort the integers (which are stored in the parent Sorter class).
      */
+    @Override
     public void sortNums() {
         // int i, j, comparisons, and nums[] are all protected datafields in
         // the superclass Sort so we can use them without declaring them

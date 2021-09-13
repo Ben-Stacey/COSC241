@@ -1,4 +1,4 @@
-package week08;
+package Lab8;
 
 import java.util.*;
 
@@ -29,6 +29,7 @@ public class BasicGenerator implements WordGenerator {
      *
      * @return a random word of length n.
      */
+    @Override
     public String nextWord(int n) {
         final int alphabetLength = 26;
         StringBuilder result = new StringBuilder();

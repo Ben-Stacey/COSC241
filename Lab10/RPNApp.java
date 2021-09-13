@@ -1,7 +1,6 @@
-package week10;
+package Lab10;
 
 import java.util.EmptyStackException;
-import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Stack;
 
